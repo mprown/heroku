@@ -100,4 +100,4 @@ app.post('/accounts', function(req, res, next) {
   animals.push(req.body.name);
   res.status(201).json({accounts:accounts});
 }
-app.listen(process.env.PORT || 5000);
+//app.listen(process.env.PORT || 5000);
